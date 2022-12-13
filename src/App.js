@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import { Footer, Homepage, Navbar, Searchbar } from './components/index.js';
 
 function App() {
   return (
-    <div className='App'>
-      <h1 className='text-5xl font-bold underline text-red-400'>
-        Hello world!
-      </h1>
+    <div className='bg-neutral-100 App'>
+      <Navbar />
+      <Searchbar />
+      <Homepage />
+      <Footer />
     </div>
   );
 }
